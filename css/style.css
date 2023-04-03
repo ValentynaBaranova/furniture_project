@@ -1440,6 +1440,9 @@ a {
   text-transform: uppercase;
   font-family: "Cuprum";
 }
+.footer .footer__bottom .footer__site a:hover {
+  text-decoration: underline;
+}
 .footer .footer__up-link {
   position: absolute;
   right: 27px;
@@ -1712,7 +1715,7 @@ a {
     padding: 51px 54px 14px 43px;
   }
   .footer .footer__logo img {
-    width: 360px;
+    width: 300px;
   }
   .footer .footer__spoiler-menu {
     display: -webkit-box;
@@ -1904,7 +1907,7 @@ a {
   }
   .header .header-bottom .header-bottom__logo img {
     height: auto;
-    width: 360px;
+    width: 270px;
     min-width: 160px;
   }
   .header .header-bottom .header-bottom__order {
@@ -1964,10 +1967,16 @@ a {
   }
   .scroll .scroll__wrapper .slider-wrapper .inner {
     gap: 30px;
+    width: 99%;
+  }
+  .scroll .scroll__wrapper .slider-wrapper .inner article {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 32%;
+    flex: 1 0 32%;
   }
   .scroll .scroll__wrapper .slider-wrapper .inner article .scroll__body {
     bottom: 37px;
-    left: 33px;
+    left: 60px;
   }
   .scroll .scroll__wrapper .scroll__slider-prev-next-control {
     left: 20px;
